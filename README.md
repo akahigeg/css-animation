@@ -13,7 +13,8 @@ CSSアニメーションの練習。
 - アニメーションのカタログ化
 
 ### 参考
-- [アニメーション可能な CSS プロパティ](https://developer.mozilla.org/ja/docs/Web/CSS/CSS_animated_properties)
+- [CSSトランジションの使用](https://developer.mozilla.org/ja/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions)
+- [アニメーション可能なCSSプロパティ](https://developer.mozilla.org/ja/docs/Web/CSS/CSS_animated_properties)
 - [CSSアニメーション 入門](https://qiita.com/soarflat/items/4a302e0cafa21477707f)
 - [Inspiration: 10 Examples of Pure CSS Animation on CodePen](https://webdesign.tutsplus.com/articles/pure-css-animation-inspiration-on-codepen--cms-30875)
 
