@@ -1,6 +1,19 @@
 Practice of CSS Animation
 
+CSSアニメーションの練習。
+
+### 学び
+- CSSプロパティの変化をパッと切り替えるのではなく、時間をかけて徐々に行うことでアニメーションにする
+
+### TODO
+- CSS Transitionで単純なアニメーションを試す
+- アニメーションで映えるプロパティを見つける
+- transition-timing-functionの種類を把握する
+- CSS Animationで凝った動きのアニメーションを試す
+- アニメーションのカタログ化
+
 ### 参考
 - [アニメーション可能な CSS プロパティ](https://developer.mozilla.org/ja/docs/Web/CSS/CSS_animated_properties)
+- [CSSアニメーション 入門](https://qiita.com/soarflat/items/4a302e0cafa21477707f)
+- [Inspiration: 10 Examples of Pure CSS Animation on CodePen](https://webdesign.tutsplus.com/articles/pure-css-animation-inspiration-on-codepen--cms-30875)
 
-https://webdesign.tutsplus.com/articles/pure-css-animation-inspiration-on-codepen--cms-30875
