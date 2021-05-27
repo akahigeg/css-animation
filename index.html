@@ -9,21 +9,24 @@
         background: #e5e5e5;
         max-width: 40rem;
       }
+
     </style>
     <h1>Practice of CSS Animation</h1>
+
     <h2>hoverした時に幅が伸びるボックス</h2>
     <style>
       .box1 {
         width: 20px;
         height: 20px;
         border: 2px solid #000;
+        text-align: center;
         transition: all 300ms 0s ease;
       }
       .box1:hover {
         width: 100px;
       }
     </style>
-    <div class="box1"></div>
+    <div class="box1">箱</div>
     <div class="note">
       box1クラスにtransitionを指定することでhover時の変化にアニメーションの効果を得られる。
 
@@ -38,7 +41,27 @@ transition-duration: 300ms;
 transition-delay: 0s;
       </pre>
 
-
+      <dl>
+        <dt>transition-property</dt><dd>アニメーションの対象となるプロパティ</dd>
+        <dt>transition-timing-function</dt><dd>アニメーションのタイミング</dd>
+        <dt>transition-duration</dt><dd>アニメーションに要する時間</dd>
+        <dt>transition-delay</dt><dd>アニメーション開始までの時間（ディレイ）</dd>
+      </dl>
     </div>
+
+    <h2>hoverした時に180度回転するボックス</h2>
+    <style>
+      .box2 {
+        width: 20px;
+        height: 20px;
+        border: 2px solid #000;
+        text-align: center;
+        transition: all 300ms 0s ease;
+      }
+      .box2:hover {
+        transform: rotate(180deg);
+      }
+    </style>
+    <div class="box2">箱</div>
   </body>
 </html>
