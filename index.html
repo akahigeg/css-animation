@@ -1,19 +1,44 @@
 <html>
   <head></head>
   <body>
-    <h1>Practice of CSS Animation</h1>
-    <h2>hoverした時に幅が伸びる</h2>
     <style>
-      .cube {
+      .note {
+        margin-top: 20px;
+        padding: 1rem;
+        border: 1px solid #999;
+        background: #e5e5e5;
+        max-width: 40rem;
+      }
+    </style>
+    <h1>Practice of CSS Animation</h1>
+    <h2>hoverした時に幅が伸びるボックス</h2>
+    <style>
+      .box1 {
         width: 20px;
         height: 20px;
         border: 2px solid #000;
         transition: all 300ms 0s ease;
       }
-      .cube:hover {
+      .box1:hover {
         width: 100px;
       }
     </style>
-    <div class="cube"></div>
+    <div class="box1"></div>
+    <div class="note">
+      box1クラスにtransitionを指定することでhover時の変化にアニメーションの効果を得られる。
+
+      <pre>transition: all 300ms 0s ease</pre>
+
+      は以下のプロパティをまとめたもの。
+      
+      <pre>
+transition-property: all;
+transition-timing-function: ease;
+transition-duration: 300ms;
+transition-delay: 0s;
+      </pre>
+
+
+    </div>
   </body>
 </html>
