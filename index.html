@@ -172,5 +172,36 @@ transition-delay: 0s;
     <div class="note">
       animationのforwardsでアニメーション終了時の状態を保持する。この指定がなければアニメーション終了後に元の状態に戻る。
     </div>
+
+    <h2>箱がバウンド</h2>
+    <style>
+      .box6 {
+        width: 20px;
+        height: 20px;
+        border: 2px solid #000;
+        text-align: center;
+        animation: Bound 1s infinite;
+      }
+      @keyframes Bound {
+        0% {
+          transform: translateX(0);
+        }
+        50% {
+          transform: translateX(100px);
+          animation-timing-function: ease-out;
+        }
+        75% {
+          transform: translateX(95px);
+          animation-timing-function: ease-in;
+        }
+        100% {
+          transform: translateX(0);
+        }
+      }
+    </style>
+    <div id="box6" class="box6">箱</div>
+    <div class="note">
+      animationのforwardsでアニメーション終了時の状態を保持する。この指定がなければアニメーション終了後に元の状態に戻る。
+    </div>
   </body>
 </html>
