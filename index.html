@@ -63,5 +63,54 @@ transition-delay: 0s;
       }
     </style>
     <div class="box2">箱</div>
+    <div class="note">
+      hover時のスタイルにtransformを適用して回転させたもの
+    </div>
+
+    <h2>クリックすると箱がスライドイン＆フェードインで増える（JavaScript使用）</h2>
+    <style>
+      .box3-container {
+        display: flex;
+      }
+      .box3 {
+        width: 20px;
+        height: 20px;
+        border: 2px solid #000;
+        text-align: center;
+      }
+      .box3:hover {
+        background-color: #fee;
+      }
+      .new-box {
+        animation: SlideIn 1.6s;
+      }
+      @keyframes SlideIn {
+        0% {
+          opacity: 0;
+          transform: translateX(300px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+    </style>
+    <div id="box3-container" class="box3-container">
+      <div id="box3" class="box3">箱</div>
+    </div>
+    <script>
+      const box3 = document.getElementById("box3");
+      const box3Container = document.getElementById("box3-container");
+      box3.addEventListener("click", (e) => {
+        const newBox = document.createElement("div");
+        newBox.className = "box3 new-box";
+        box3Container.appendChild(newBox);
+
+      });
+
+    </script>
+    <div class="note">
+      クリック時に要素を追加して、キーフレームを使ってスライドイン＆フェードインのアニメーション。
+    </div>
   </body>
 </html>
