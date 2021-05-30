@@ -6,9 +6,9 @@ CSSアニメーションの練習。
 - CSSプロパティの変化をパッと切り替えるのではなく、時間をかけて徐々に行うことでアニメーションにする
 
 ### TODO
-- CSS Transitionで単純なアニメーションを試す
+- [DONE] CSS Transitionで単純なアニメーションを試す
 - アニメーションで映えるプロパティを見つける
-- transition-timing-functionの種類を把握する
+- [DONE] transition-timing-functionの種類を把握する
 - CSS Animationで凝った動きのアニメーションを試す
 - アニメーションのカタログ化
 

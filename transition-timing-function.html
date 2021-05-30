@@ -1,0 +1,68 @@
+<html>
+  <head></head>
+  <body>
+    <style>
+      .note {
+        margin-top: 20px;
+        padding: 1rem;
+        border: 1px solid #999;
+        background: #e5e5e5;
+        max-width: 40rem;
+      }
+
+    </style>
+    <h1>Practice of CSS Animation</h1>
+
+    <h2>transition-timing-functionのサンプル</h2>
+    <style>
+      .box {
+        margin-top: 10px;
+        padding: 5px 10px;
+        width: 100px;
+        height: 20px;
+        border: 2px solid #999;
+        text-align: left;
+      }
+      .box:hover {
+        width: 400px;
+      }
+      .linear {
+        transition: all 500ms 0s linear;
+      }
+      .ease {
+        transition: all 500ms 0s ease;
+      }
+      .ease-in-out {
+        transition: all 500ms 0s ease-in-out;
+      }
+      .ease-in {
+        transition: all 500ms 0s ease-in;
+      }
+      .ease-out {
+        transition: all 500ms 0s ease-out;
+      }
+      .step-start {
+        transition: all 500ms 0s step-start;
+      }
+      .step-end {
+        transition: all 500ms 0s step-end;
+      }
+      .steps6 {
+        transition: all 500ms 0s steps(6, end);
+      }
+      .cubic-bezier{
+        transition: all 500ms 0s cubic-bezier(.29, 1.01, 1, -0.68);
+      } 
+    </style>
+    <div class="box linear">linear</div>
+    <div class="box ease">ease</div>
+    <div class="box ease-in-out">ease-in-out</div>
+    <div class="box ease-in">ease-in</div>
+    <div class="box ease-out">ease-out</div>
+    <div class="box stap-start">step-start</div>
+    <div class="box stap-end">step-end</div>
+    <div class="box steps6">steps6</div>
+    <div class="box cubic-bezier">cubic-bezier</div>
+
+  </body>
+</html>
