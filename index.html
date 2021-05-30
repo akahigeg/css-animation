@@ -82,7 +82,7 @@ transition-delay: 0s;
         background-color: #fee;
       }
       .new-box {
-        animation: SlideIn 1.6s;
+        animation: SlideIn 1s;
       }
       @keyframes SlideIn {
         0% {
@@ -111,6 +111,66 @@ transition-delay: 0s;
     </script>
     <div class="note">
       クリック時に要素を追加して、キーフレームを使ってスライドイン＆フェードインのアニメーション。
+    </div>
+
+    <h2>箱がスライドイン＆フェードイン</h2>
+    <style>
+      .box4 {
+        width: 20px;
+        height: 20px;
+        border: 2px solid #000;
+        text-align: center;
+
+        animation: SlideIn 1s;
+      }
+      @keyframes SlideIn {
+        0% {
+          opacity: 0;
+          transform: translateX(300px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+    </style>
+    <div class="box4">箱</div>
+
+    <h2>箱がスライドアウト＆フェードアウト</h2>
+    <style>
+      .box5 {
+        width: 20px;
+        height: 20px;
+        border: 2px solid #000;
+        text-align: center;
+        animation: SlideOut 1s forwards;
+      }
+      .box5-hide {
+      }
+      .box5:hover {
+        background-color: #fee;
+      }
+      @keyframes SlideOut {
+        0% {
+          opacity: 1;
+          transform: translateY(0);
+        }
+        100% {
+          opacity: 0;
+          transform: translateY(-10px);
+        }
+      }
+    </style>
+    <div id="box5" class="box5">箱</div>
+    <script>
+      const box5 = document.getElementById("box5");
+      box5.addEventListener("click", (e) => {
+        box5.className = "box5 box5-hide";
+      });
+
+    </script>
+    <div class="note">
+      animationのforwardsでアニメーション終了時の状態を保持する。この指定がなければアニメーション終了後に元の状態に戻る。
     </div>
   </body>
 </html>
