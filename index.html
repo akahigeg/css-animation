@@ -82,16 +82,20 @@ transition-delay: 0s;
         background-color: #fee;
       }
       .new-box {
-        animation: SlideIn 1s;
+        animation: SlideRollIn 1s;
       }
-      @keyframes SlideIn {
+      @keyframes SlideRollIn {
         0% {
           opacity: 0;
           transform: translateX(300px);
         }
+        25% {
+          opacity: 1;
+        }
         100% {
           opacity: 1;
-          transform: translateX(0) rotate(360deg);
+          transform: translateX(0) rotate(-1800deg);
+          animation-timing-function: linear;
         }
       }
     </style>
@@ -105,12 +109,12 @@ transition-delay: 0s;
         const newBox = document.createElement("div");
         newBox.className = "box3 new-box";
         box3Container.appendChild(newBox);
-
       });
 
     </script>
     <div class="note">
-      クリック時に要素を追加して、キーフレームを使ってスライドイン＆フェードインのアニメーション。
+      <p>クリック時に要素を追加して、キーフレームを使ってスライドイン＆フェードインのアニメーション。</p>
+      <p>degは360で1回転。3600degなら10回転。-360degで逆（反時計回り）に1回転</p>
     </div>
 
     <h2>箱が転がりながらスライドイン＆フェードイン</h2>
