@@ -230,9 +230,44 @@ transition-delay: 0s;
         to   { width: 40px;}
       }
     </style>
-    <div id="box7" class="box7">箱</div>
+    <div id="box7" class="box7-pend">箱</div>
     <div class="note">
       animationに複数の関数を指定できる。ディレイを調整すれば自然なアニメーションとなる。
+    </div>
+
+    <h2></h2>
+    <style>
+      .circle-container {
+        padding: auto;
+        border: 2px solid #999;
+        height: 40px;
+        width: 40px;
+      }
+      .circle {
+        border: 2px dotted #999;
+        border-radius: 50%;
+        text-align: center;
+        animation: burst 1s ease alternate forwards;
+      }
+      @Keyframes burst {
+        from { 
+          opacity: 1;
+          width: 20px; height: 20px;
+          margin: 8px;
+        }
+        to   { 
+          opacity: 0;
+          width: 40px; height: 40px;
+          margin: -2px;
+        }
+      }
+    </style>
+    <div class="circle-container">
+      <div id="circle" class="circle"></div>
+    </div>
+    <div class="note">
+      ぱっと散る
+      
     </div>
   </body>
 </html>
