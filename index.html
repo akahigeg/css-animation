@@ -290,5 +290,29 @@ transition-delay: 0s;
     <div class="note">
       なつかしの
     </div>
+
+    <h2>マーキー</h2>
+    <style>
+      .box9-container {
+        width: 400px;
+        height: 20px;
+        overflow: hidden;
+      }
+      .box9 {
+        text-align: center;
+        animation: marquee 5s linear infinite;
+      }
+      @Keyframes marquee {
+        /* テキストの長さに合わせてtranslateXを調整する必要あり */
+        from { transform: translateX(300px); }
+        to   { transform: translateX(-300px); }
+      }
+    </style>
+    <div class="box9-container">
+      <div class="box9">私のホームページへようこそ！</div>
+    </div>
+    <div class="note">
+      なつかしの2
+    </div>
   </body>
 </html>
