@@ -235,7 +235,7 @@ transition-delay: 0s;
       animationに複数の関数を指定できる。ディレイを調整すれば自然なアニメーションとなる。
     </div>
 
-    <h2></h2>
+    <h2>パッと散る</h2>
     <style>
       .circle-container {
         padding: auto;
@@ -268,6 +268,27 @@ transition-delay: 0s;
     <div class="note">
       ぱっと散る
       
+    </div>
+
+    <h2>ブリンク</h2>
+    <style>
+      .box8 {
+        width: 20px;
+        height: 20px;
+        border: 2px solid #000;
+        text-align: center;
+        animation: blink 0.5s linear alternate infinite forwards;
+      }
+      @Keyframes blink {
+        from { opacity: 1; }
+        50%  { opacity: 1; }
+        51%  { opacity: 0; }
+        to   { opacity: 0; }
+      }
+    </style>
+    <div class="box8">箱</div>
+    <div class="note">
+      なつかしの
     </div>
   </body>
 </html>
