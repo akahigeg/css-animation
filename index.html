@@ -314,5 +314,24 @@ transition-delay: 0s;
     <div class="note">
       なつかしの2。完全再現はけっこう難しいぽい。
     </div>
+
+    <h2>activeを使ってJavaScriptなしのクリックアニメーション</h2>
+    <style>
+      .box10 {
+        width: 200px;
+        height: 20px;
+        border: 2px solid #000;
+        text-align: center;
+        transition: all 1s 0s ease-in;
+      }
+      .box10:active {
+        background-color: #fee;
+        transition: none;
+      }
+    </style>
+    <div class="box10">ボタン</div>
+    <div class="note">
+      activeのtransitionをnoneにするのがコツ。そうしないとマウスボタンを離したときにactiveじゃない状態にパッと戻ってしまう。
+    </div>
   </body>
 </html>
