@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "gitbook-plugin-search-pro-kui": "1.0.x",
+    "honkit": "^3.6.20"
+  }
+}
