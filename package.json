@@ -1,6 +1,11 @@
 {
   "dependencies": {
     "gitbook-plugin-search-pro-kui": "1.0.x",
-    "honkit": "^3.6.20"
+    "honkit": "^3.6.20",
+    "@honkit/honkit-plugin-theme-default": "^3.6.20"
+  },
+  "devDependencies": {
+    "honkit-plugin-theme-osiris": "^1.0.3",
+    "honkit-plugin-theme-webheadfoot": "file:../honkit-plugin-theme-webheadfoot"
   }
 }

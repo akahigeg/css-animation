@@ -1,1 +1,7 @@
-{"title": "Practice of CSS Animation"}
+{
+  "title": "Practice of CSS Animation",
+  "plugins": [
+      "-lunr", "-search", "search-pro-kui", "theme-webheadfoot"
+  ]
+
+}
