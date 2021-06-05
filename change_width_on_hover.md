@@ -1,3 +1,4 @@
+## hover時に幅を伸ばす
 <style>
   .box {
     width: 100px;
