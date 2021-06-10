@@ -1,10 +1,8 @@
 # 高さの変更
 
----
+要素にhoverで高さが徐々に大きくなる
 
-### 要素にhoverで高さが徐々に大きくなる
-
-#### 動作サンプル
+### 動作サンプル
 
 <style>
   .box {
@@ -29,14 +27,14 @@
   </div>
 </div>
 
-#### HTML
+### HTML
 ```html
 <div class="box-container">
   <div class="box">HOVER!</div>
 </div>
 ```
 
-#### CSS
+### CSS
 ```css
 .box {
   height: 100px;
@@ -51,7 +49,7 @@
 }
 ```
 
-#### 解説
+### 解説
 hoverでheightを変化させ、transitionによってアニメーション。
 
 overflow-yでhiddenにしといた要素を表示させることもできるよ。
