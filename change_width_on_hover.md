@@ -5,9 +5,9 @@
     padding: 10px 0;
     border: 2px solid #000;
     text-align: center;
-    transition: all 300ms 0s ease;
+    transition: all ease 1s 0s;
   }
-  .box:hover {
+  .box:active {
     width: 200px;
   }
 </style>
@@ -18,9 +18,11 @@
 </div>
 
 ### HTML
-    <div class="box-container">
-      <div class="box">BOX</div>
-    </div>
+```html
+<div class="box-container">
+  <div class="box">BOX</div>
+</div>
+```
 
 ### CSS
     <style>
@@ -29,10 +31,11 @@
         padding: 10px 0;
         border: 2px solid #000;
         text-align: center;
-        transition: all 300ms 0s ease;
+        transition: all ease 300ms 0s;
       }
       .box:hover {
-        width: 200px;
+        width: 300px;
+        transition-duration: 10s;
       }
     </style>
 
