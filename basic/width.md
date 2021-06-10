@@ -10,7 +10,6 @@
     padding: 10px 0;
     border: 2px solid #000;
     text-align: center;
-    margin-right: 10px;
     transition: all ease 1s 0s;
   }
   .box:hover {
@@ -36,7 +35,6 @@
   padding: 10px 0;
   border: 2px solid #000;
   text-align: center;
-  margin-right: 10px;
   transition: all ease 300ms 0s;
 }
 .box:hover {
