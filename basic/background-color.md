@@ -12,7 +12,6 @@
     text-align: center;
     background-color: white;
     transition: all ease 0.5s 0s;
-    overflow-y: hidden;
   }
   .box:active {
     transition: none;

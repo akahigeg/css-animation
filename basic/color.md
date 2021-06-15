@@ -13,7 +13,6 @@
     color: black;
     font-weight: bold;
     transition: all ease 2s 0s;
-    overflow-y: hidden;
   }
   .box:active {
     transition: none;
