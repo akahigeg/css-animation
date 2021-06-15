@@ -6,8 +6,6 @@
     * [active](start/active.md)
     * [要素が表示されたとき](start/appear.md)
     * [JavaScriptのイベントハンドラ](start/event.md)
-* [hover時に幅を伸ばす](change_width_on_hover.md)
-* [hover時に回転させる](rotation_on_hover.md)
 * [単純なアニメーション](basic/index.md)
     * [幅の変更](basic/width.md)
     * [高さの変更](basic/height.md)
