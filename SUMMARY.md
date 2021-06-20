@@ -26,4 +26,5 @@
     * [ブリンク](advanced/blink.md)
     * [マーキー](advanced/marquee.md)
     * [連続アニメーション](advanced/sequence.md)
+    * [ローディングアイコン](advanced/loading-icon.md)
 
