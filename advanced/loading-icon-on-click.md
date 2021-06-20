@@ -157,5 +157,6 @@ JavaScriptを利用してボタンクリックした時に[ローディングア
 
 setTimeoutで2秒後に処理終了をシミュレート。
 
+ローディングアイコンの上下中央寄せにはposition: absoluteとmargin: autoを使った方法を利用。
 
 参考: [簡単CSSアニメーション＆デザイン20選（ソースコードと解説付き）](https://baigie.me/officialblog/2021/02/25/css-tips-1/)
