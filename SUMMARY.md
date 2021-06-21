@@ -28,4 +28,5 @@
     * [連続アニメーション](advanced/sequence.md)
     * [ローディングアイコン](advanced/loading-icon.md)
     * [クリックでローディングアイコン](advanced/loading-icon-on-click.md)
+    * [バウンドするNEXTボタン](advanced/next-arrow.md)
 
