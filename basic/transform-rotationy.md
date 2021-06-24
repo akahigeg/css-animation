@@ -1,6 +1,6 @@
-# 2D回転
+# 垂直フリップ
 
-要素にhoverで回転する。
+要素にhoverで水平フリップする。
 
 <style>
   .box {
@@ -12,7 +12,7 @@
     transition: all 300ms 0s ease;
   }
   .box:hover {
-    transform: rotateX(180deg);
+    transform: rotateY(180deg);
   }
 </style>
 
@@ -39,16 +39,10 @@
   transition: all 300ms 0s ease;
 }
 .box:hover {
-  transform: rotate(180deg);
+  transform: rotateY(360deg);
 }
 ```
 
 ### 解説
-hover時のスタイルにtransformでrotateを適用して回転させたもの。
+hover時のスタイルにtransformでrotateYを適用して3D方向に回転させたもの。
 中の要素も含めて回転する。
-
-180degは半回転だがこれを360degにすれば1回転。720degにすれば2回転。
--180degにすれば逆に半回転する。
-
-このサンプルでは回転時に欠けてしまうが、例としてそのままにしてある。
-box-containerに十分なpaddingを取れば欠けない。
