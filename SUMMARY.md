@@ -29,4 +29,5 @@
     * [ローディングアイコン](advanced/loading-icon.md)
     * [クリックでローディングアイコン](advanced/loading-icon-on-click.md)
     * [バウンドするNEXTボタン](advanced/next-arrow.md)
+    * [ワイプイン](advanced/wipe-in.md)
 

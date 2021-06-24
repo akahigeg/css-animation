@@ -21,5 +21,6 @@ CSSアニメーションの練習。
 - [CSSアニメーション 入門](https://qiita.com/soarflat/items/4a302e0cafa21477707f)
 - [Inspiration: 10 Examples of Pure CSS Animation on CodePen](https://webdesign.tutsplus.com/articles/pure-css-animation-inspiration-on-codepen--cms-30875)
 - [簡単CSSアニメーション＆デザイン20選（ソースコードと解説付き）](https://baigie.me/officialblog/2021/02/25/css-tips-1/)
+- [CSSによるカードレイアウトのマウスオーバー（ホバー）のアニメーション](https://shanabrian.com/web/html-css-js-technics/css-card-hover-effect-animation.php)
 
 {{ honkit.time }}
