@@ -12,7 +12,7 @@
     transition: all 300ms 0s ease;
   }
   .box:hover {
-    transform: rotateX(180deg);
+    transform: rotate(180deg);
   }
 </style>
 
