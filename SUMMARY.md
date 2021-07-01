@@ -19,6 +19,7 @@
     * [表示/非表示の切り替え](basic/display.md)
     * [透明度の変化](basic/opacity.md)
     * [ボーダーの変更](basic/border.md)
+    * [クリップパスの変更](basic/clip_path.md)
 * 応用(advanced/index.md)
     * [バウンド](advanced/bound.md)
     * [スライドイン](advanced/slide-in.md)
